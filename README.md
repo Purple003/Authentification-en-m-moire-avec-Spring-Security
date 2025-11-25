@@ -1,6 +1,5 @@
 # TP 8 – Authentification en mémoire avec Spring Security
 
-## Résumé pédagogique
 
 Ce TP présente les bases de **Spring Security** à travers une authentification simple **en mémoire**, en utilisant deux utilisateurs : `admin` et `user`. Vous allez apprendre :
 
