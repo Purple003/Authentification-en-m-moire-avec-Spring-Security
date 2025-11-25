@@ -3,17 +3,17 @@
 
 Ce TP présente les bases de **Spring Security** à travers une authentification simple **en mémoire**, en utilisant deux utilisateurs : `admin` et `user`. Vous allez apprendre :
 
-### Génération automatique de sécurité par Spring Boot
+- Génération automatique de sécurité par Spring Boot
 
-### Configuration d’utilisateurs en mémoire
+- Configuration d’utilisateurs en mémoire
 
-### Définition des règles d’accès selon les rôles
+- Définition des règles d’accès selon les rôles
 
-### Mise en place de routes protégées
+- Mise en place de routes protégées
 
-### Test des accès via navigateur
+- Test des accès via navigateur
 
-## Comptes de test
+- Comptes de test
 
 ### Compte utilisateur
 
@@ -33,9 +33,9 @@ Ce TP présente les bases de **Spring Security** à travers une authentification
 
 Démarrer l’application puis accéder aux URL suivantes :
 
-[http://localhost:8080/](http://localhost:8080/)
-[http://localhost:8080/user/dashboard](http://localhost:8080/user/dashboard)
-[http://localhost:8080/admin/dashboard](http://localhost:8080/admin/dashboard)
+- [http://localhost:8080/](http://localhost:8080/)
+- [http://localhost:8080/user/dashboard](http://localhost:8080/user/dashboard)
+- [http://localhost:8080/admin/dashboard](http://localhost:8080/admin/dashboard)
 
 
 ---
