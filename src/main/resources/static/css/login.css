@@ -1,0 +1,109 @@
+/* Fond général de la page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container du formulaire */
+.login-container {
+    background-color: #ffffff;
+    padding: 2.5rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Titre */
+.login-title {
+    margin: 0 0 1.5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #1e3c72;
+}
+
+/* Labels + inputs */
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.65rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #d0d7de;
+    font-size: 0.95rem;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-group input:focus {
+    border-color: #1e3c72;
+    box-shadow: 0 0 0 2px rgba(30, 60, 114, 0.18);
+}
+
+/* Bouton de login */
+.login-button {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #1e3c72;
+    color: #ffffff;
+    transition: background-color 0.15s ease, transform 0.05s ease;
+}
+
+.login-button:hover {
+    background-color: #24498f;
+}
+
+.login-button:active {
+    transform: scale(0.98);
+}
+
+/* Message d'erreur (quand ?error est présent) */
+.error-message {
+    background-color: #fde2e1;
+    border: 1px solid #f3b0ac;
+    color: #b3261e;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+/* Message logout (quand ?logout est présent) */
+.logout-message {
+    background-color: #e4f3e8;
+    border: 1px solid #a7d8b8;
+    color: #1b5e20;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+/* Texte en bas */
+.login-footer {
+    margin-top: 1.2rem;
+    font-size: 0.85rem;
+    text-align: center;
+    color: #777;
+}
